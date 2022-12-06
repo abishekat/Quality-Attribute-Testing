@@ -13,7 +13,7 @@ const response = await fetch(
 var jsonArray = [];
 const data = await response.json();
 const token = data.token;
-for (var i = 0; i < 1; i++) {
+for (var i = 0; i < 100; i++) {
   var dateTimeStamp = Date.now();
   const plot = {
     time: dateTimeStamp,
